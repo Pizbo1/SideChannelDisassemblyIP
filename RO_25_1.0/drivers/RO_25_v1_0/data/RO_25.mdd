@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER RO_25
+	OPTION supported_peripherals = (RO_25);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = RO_25;
+END DRIVER
